@@ -4,6 +4,12 @@
 
 An open-source simulation cluster platform for running finite element analysis (FEA) and computational fluid dynamics (CFD) simulations.
 
+## Diagrams
+
+The following diagram explains the architecture of the simulation cluster:
+
+![](./diagrams/architecture.svg)
+
 ## Services
 
 The project is based on the following open-source software packages:
@@ -19,6 +25,8 @@ Part of the source code is written in [Python](https://www.python.org/) and uses
 * [click](https://click.palletsprojects.com/en/stable/) - Command line interface library
 * [asyncio](https://docs.python.org/3/library/asyncio.html) - Asynchronous programming library
 * [aiohttp](https://docs.aiohttp.org/en/stable/) - Asynchronous HTTP client library
+* [azure-identity](https://pypi.org/project/azure-identity/) - Azure identity client library
+* [azure-servicebus](https://pypi.org/project/azure-servicebus/) - Azure service bus client library
 * [Flask](https://flask.palletsprojects.com/en/stable/) - HTTP server library
 * [Flask-SocketIO](https://flask-socketio.readthedocs.io/en/latest/) - HTTP WebSocket library
 
